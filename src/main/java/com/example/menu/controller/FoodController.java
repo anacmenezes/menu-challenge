@@ -16,7 +16,7 @@ import com.example.menu.food.FoodRequestDTO;
 import com.example.menu.food.FoodResponseDTO;
 
 @RestController
-@RequestMapping(value = "/food", produces = {"application/json"})
+@RequestMapping("food")
 public class FoodController {
 
     @Autowired
@@ -32,7 +32,7 @@ public class FoodController {
 
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @GetMapping
-    public List<FoodResponseDTO> getAll(){
+    public List<FoodResponseDTO> findAll(){
 
         List<FoodResponseDTO> foodList = repository.findAll().stream().map(FoodResponseDTO::new).toList();
         return foodList;

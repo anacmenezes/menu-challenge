@@ -1,7 +1,5 @@
 package com.example.menu.food;
 
-import java.io.Serializable;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -12,17 +10,14 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@Table
-@Entity
+@Table(name = "foods")
+@Entity(name = "foods")
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
-public class Food implements Serializable {
-	private static final long serialVersionUID = 1L;
-	
-    @Id 
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class Food {
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
     private String image;
@@ -33,6 +28,9 @@ public class Food implements Serializable {
         this.price = data.price();
         this.title = data.title();
     }
+    
+    public Food() {
+	}
 
 	public Long getId() {
 		return id;
