@@ -35,7 +35,7 @@ Primeiro você deve clonar o repositório,
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/anacmenezes/To-do-List-Backend.git
+$ git clone https://github.com/anacmenezes/menu-challenge-backend.git
 
 # Acesse-o
 $ cd crud-java-back
