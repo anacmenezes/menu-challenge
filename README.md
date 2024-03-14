@@ -1,4 +1,4 @@
-<h1>To Do - Backend</h1>
+<h1>Menu - Backend</h1>
 
 <p align="center">
   <a href="#tecnologias">Tecnologias</a> •
@@ -6,7 +6,7 @@
   <a href="#pre-requisites">Requisitos</a> •
   <a href="#how-to-Installing">Instalando o projeto</a> •
   <a href="#how-to-use">Como executar</a> •
-  <a href="#related">Integração com Frontend</a> •
+  <a href="#related">Integração com Frontend</a>
 </p>
 
 Essa aplicação foi desenvolvido como desafio utilizando Java Spring e Spring MVC para criação do servidor, Spring Data JPA para manipulação e persistência de dados, Lombok para geração de boilerplates e Postgres Driver para realizar a conexão com banco de dados Postgress.
@@ -40,6 +40,7 @@ $ git clone https://github.com/anacmenezes/To-do-List-Backend.git
 # Acesse-o
 $ cd crud-java-back
 ```
+
 <h2 id="how-to-use"> Como Executar</h2>
 
 - Executar a aplicação:
