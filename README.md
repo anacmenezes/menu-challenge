@@ -11,7 +11,7 @@
 
 Essa aplicação foi desenvolvido como desafio utilizando Java Spring e Spring MVC para criação do servidor, Spring Data JPA para manipulação e persistência de dados, Lombok para geração de boilerplates e Postgres Driver para realizar a conexão com banco de dados Postgress.
 
-<h2 id="tecnologias"> Tecnologias </h2> 
+<h2 id="tecnologias">🔌 Tecnologias </h2> 
  
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring MVC](https://docs.spring.io/spring-framework/reference/web/webmvc.html)
@@ -19,7 +19,7 @@ Essa aplicação foi desenvolvido como desafio utilizando Java Spring e Spring M
 - [Lombok](https://projectlombok.org/)
 - [PostgreSQL](https://www.postgresql.org/download/)
 
-<h2 id="practices-adopted"> Práticas adotadas </h2> 
+<h2 id="practices-adopted">📖 Práticas adotadas </h2> 
 
 - API REST
 - Consultas com Spring Data JPA
@@ -41,11 +41,11 @@ $ git clone https://github.com/anacmenezes/menu-challenge-backend.git
 $ cd crud-java-back
 ```
 
-<h2 id="how-to-use"> Como Executar</h2>
+<h2 id="how-to-use">💡 Como Executar</h2>
 
 - Executar a aplicação:
 ```
-$ java -jar target/todolist-0.0.1-SNAPSHOT.jar
+$ java -jar target/menu-0.0.1-SNAPSHOT.jar
 ```
 A API poderá ser acessada em [localhost:8080](http://localhost:8080).
 
