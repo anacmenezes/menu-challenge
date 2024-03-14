@@ -9,7 +9,7 @@
   <a href="#related">Integração com Frontend</a>
 </p>
 
-Essa aplicação foi desenvolvido como desafio utilizando Java Spring e Spring MVC para criação do servidor, Spring Data JPA para manipulação e persistência de dados, Lombok para geração de boilerplates e Postgres Driver para realizar a conexão com banco de dados Postgress.
+Essa aplicação foi desenvolvida como desafio utilizando Java Spring e Spring MVC para criação do servidor, Spring Data JPA para manipulação e persistência de dados, Lombok para geração de boilerplates e Postgres Driver para realizar a conexão com banco de dados Postgress.
 
 <h2 id="tecnologias">🔌 Tecnologias </h2> 
  
